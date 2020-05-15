@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<link rel="stylesheet" href="FruitMachine.CSS">
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="fruit Machine">
+    <title>FruitMachine</title>
+</head>
+
+<main>
+    <body>
+        <!--Here's the slot machine code, where the images are displayed-->
+        <section id="SlotStatus">Fruit Machine</section><br> <br>
+        <section id="Fruitslots">
+            <img id="CartFruit1" src="Images/Cartoon1.png" width="100">
+            <img id="CartFruit2" src="Images/Cartoon2.png" width="100">
+            <img id="CartFruit3" src="Images/BAR.png" width="100">
+        </section><br>
+
+    <!--Button code-->
+    <section id="slotbuttons" >
+        <button type="submit" id="spin" name="spin">spin</button>
+        <button type="submit" id="winnings" name="winnings">Collect</button>
+        <button id="button">Your Credit</button>
+    </section>
+    
+    <!--Display text for the winnings -->
+    <section id="text">
+        <div id="credits">
+            <p>Available Credits:</p>
+            <p id="SlotCredit">0</p>
+        </div>
+        <div id="winnings">
+            <label for="Winnings">Available Winnings:</label><br>
+            <p id="Winnings">0</p>
+        </div>
+    </section>
+    <script src="FruitMachine.JS"></script>
+    </body>
+</main>
+</html>
